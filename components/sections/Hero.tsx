@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Star, Users, Dumbbell, Award, ChevronRight, Play, MessageCircle } from 'lucide-react';
 import { Counter } from '@/components/motion/Counter';
+import { WHATSAPP_LINK } from '@/lib/constants';
 
 const stats = [
   { icon: Star, label: 'Google Rating', value: 5, suffix: '.0', decimals: 1 },
@@ -76,9 +77,7 @@ export function Hero() {
             className="mt-10 flex flex-col sm:flex-row gap-4"
           >
             <a
-              href="https://wa.me/923001234567?text=Hi%2C%20I%20want%20to%20join%20MK%20Muscle%20Gym%2C%20please%20share%20membership%20details"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={WHATSAPP_LINK}
               className="group inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 text-base font-semibold text-white bg-gradient-to-r from-[#FF2E2E] to-[#E50914] red-glow red-glow-hover transition-all"
             >
               Join Now
