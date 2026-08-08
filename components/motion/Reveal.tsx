@@ -41,7 +41,7 @@ export function Reveal({
   amount = 0.2,
 }: RevealProps) {
   const ref = useRef(null);
-  const inView = useInView(ref, { once, amount });
+  const inView = true;
   return (
     <motion.div
       ref={ref}
