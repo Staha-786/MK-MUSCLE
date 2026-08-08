@@ -5,6 +5,7 @@ import { MapPin, Phone, Mail, Clock, MessageCircle, Send } from 'lucide-react';
 import { SectionHeading } from '@/components/sections/SectionHeading';
 import { Reveal } from '@/components/motion/Reveal';
 import { FaWhatsapp } from "react-icons/fa";
+import { WHATSAPP_LINK } from '@/lib/constants';
 
 const contactInfo = [
   { icon: MapPin, label: 'Location', value: 'Plot No. 18-C, 05 Sunset Ln, Phase 02 Extension, DHA, Karachi' },
@@ -54,9 +55,7 @@ export function Contact() {
 
             <Reveal delay={0.2} direction="right">
               <a
-                href="https://wa.me/923351225538?text=Hi%2C%20I%20am%20interested%20in%20MK%20Muscle%20Gym"
-                target="_blank"
-                rel="noopener noreferrer"
+                href={WHATSAPP_LINK}
                 className="group flex items-center justify-center gap-2 rounded-full px-6 py-4 text-base font-semibold text-white bg-gradient-to-r from-[#25D366] to-[#128C7E] transition-all hover:shadow-[0_0_40px_-10px_rgba(37,211,102,0.6)]"
               >
                 <FaWhatsapp className="h-5 w-5" />

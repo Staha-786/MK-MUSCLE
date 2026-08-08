@@ -2,6 +2,7 @@
 
 import { Dumbbell, Instagram, Facebook, Linkedin, MapPin, Phone, Mail, ArrowUp, MessageCircle } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
+import { WHATSAPP_LINK } from '@/lib/constants';
 
 const quickLinks = [
   { label: 'Home', href: '#home' },
@@ -32,7 +33,7 @@ export function Footer() {
             </p>
             <div className="flex gap-3">
               {[
-                { Icon: FaWhatsapp, href: 'https://wa.me/923351225538?text=Hi%2C%20I%20am%20interested%20in%20MK%20Muscle%20Gym', label: 'WhatsApp' },
+                { Icon: FaWhatsapp, href: WHATSAPP_LINK, label: 'WhatsApp' },
                 { Icon: Instagram, href: '#', label: 'Instagram' },
                 { Icon: Facebook, href: '#', label: 'Facebook' },
                 { Icon: Linkedin, href: '#', label: 'LinkedIn' },
@@ -40,8 +41,6 @@ export function Footer() {
                 <a
                   key={i}
                   href={href}
-                  target={href.startsWith('http') ? '_blank' : undefined}
-                  rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
                   className="h-10 w-10 rounded-full glass border border-white/10 flex items-center justify-center text-white/70 hover:text-white hover:border-[#FF2E2E]/40 transition-colors"
                   aria-label={label}
                 >

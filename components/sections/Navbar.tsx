@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Dumbbell } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { WHATSAPP_LINK } from '@/lib/constants';
 
 const links = [
   { label: 'Home', href: '#home' },
@@ -66,9 +67,7 @@ export function Navbar() {
 
           <div className="hidden lg:block">
             <a
-              href="https://wa.me/923351225538?text=Hi%2C%20I%20want%20to%20join%20MK%20Muscle%20Gym%2C%20please%20share%20membership%20details"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={WHATSAPP_LINK}
               className="relative inline-flex items-center gap-2 rounded-full px-6 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-[#FF2E2E] to-[#E50914] red-glow-hover transition-shadow"
             >
               Join Now
@@ -115,9 +114,7 @@ export function Navbar() {
                 </motion.a>
               ))}
               <a
-                href="https://wa.me/923001234567?text=Hi%2C%20I%20want%20to%20join%20MK%20Muscle%20Gym%2C%20please%20share%20membership%20details"
-                target="_blank"
-                rel="noopener noreferrer"
+                href={WHATSAPP_LINK}
                 onClick={() => setOpen(false)}
                 className="mt-6 inline-flex items-center justify-center rounded-full px-6 py-4 text-base font-semibold text-white bg-gradient-to-r from-[#FF2E2E] to-[#E50914]"
               >
