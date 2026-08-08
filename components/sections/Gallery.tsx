@@ -8,12 +8,32 @@ import { Reveal } from '@/components/motion/Reveal';
 import { cn } from '@/lib/utils';
 
 const images = [
-  { src: 'https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Gym floor', span: 'row-span-2' },
-  { src: 'https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Strength training' },
-  { src: 'https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Conditioning' },
-  { src: 'https://images.pexels.com/photos/4761352/pexels-photo-4761352.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Cross training', span: 'row-span-2' },
-  { src: 'https://images.pexels.com/photos/4753993/pexels-photo-4753993.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Cardio area' },
-  { src: 'https://images.pexels.com/photos/17840/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800', alt: 'Bodybuilding' },
+  {
+    src: 'https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=800',
+    alt: 'Gym floor',
+    span: 'row-span-2',
+  },
+  {
+    src: 'https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg?auto=compress&cs=tinysrgb&w=800',
+    alt: 'Strength training',
+  },
+  {
+    src: 'https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&w=800',
+    alt: 'Conditioning',
+  },
+  {
+    src: 'https://images.pexels.com/photos/4761352/pexels-photo-4761352.jpeg?auto=compress&cs=tinysrgb&w=800',
+    alt: 'Cross training',
+    span: 'row-span-2',
+  },
+  {
+    src: 'https://images.pexels.com/photos/4753993/pexels-photo-4753993.jpeg?auto=compress&cs=tinysrgb&w=800',
+    alt: 'Cardio area',
+  },
+  {
+    src: 'https://images.pexels.com/photos/17840/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
+    alt: 'Bodybuilding',
+  },
 ];
 
 export function Gallery() {
