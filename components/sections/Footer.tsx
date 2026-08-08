@@ -32,7 +32,7 @@ export function Footer() {
             </p>
             <div className="flex gap-3">
               {[
-                { Icon: FaWhatsapp, href: 'https://wa.me/923001234567?text=Hi%2C%20I%20am%20interested%20in%20MK%20Muscle%20Gym', label: 'WhatsApp' },
+                { Icon: FaWhatsapp, href: 'https://wa.me/923351225538?text=Hi%2C%20I%20am%20interested%20in%20MK%20Muscle%20Gym', label: 'WhatsApp' },
                 { Icon: Instagram, href: '#', label: 'Instagram' },
                 { Icon: Facebook, href: '#', label: 'Facebook' },
                 { Icon: Linkedin, href: '#', label: 'LinkedIn' },
@@ -86,7 +86,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-[#FF2E2E] shrink-0" />
-                +92 300 1234567
+                +92 335 1225538
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-[#FF2E2E] shrink-0" />

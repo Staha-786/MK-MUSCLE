@@ -8,7 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const contactInfo = [
   { icon: MapPin, label: 'Location', value: 'Plot No. 18-C, 05 Sunset Ln, Phase 02 Extension, DHA, Karachi' },
-  { icon: Phone, label: 'Phone', value: '+92 300 1234567' },
+  { icon: Phone, label: 'Phone', value: '+92 3351225538' },
   { icon: Mail, label: 'Email', value: 'info@mkmuscle.pk' },
   { icon: Clock, label: 'Hours', value: 'Mon–Sat: 6AM–11PM · Fri: 8AM–12PM, 4PM–11PM' },
 ];
@@ -54,7 +54,7 @@ export function Contact() {
 
             <Reveal delay={0.2} direction="right">
               <a
-                href="https://wa.me/923001234567?text=Hi%2C%20I%20am%20interested%20in%20MK%20Muscle%20Gym"
+                href="https://wa.me/923351225538?text=Hi%2C%20I%20am%20interested%20in%20MK%20Muscle%20Gym"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center gap-2 rounded-full px-6 py-4 text-base font-semibold text-white bg-gradient-to-r from-[#25D366] to-[#128C7E] transition-all hover:shadow-[0_0_40px_-10px_rgba(37,211,102,0.6)]"
