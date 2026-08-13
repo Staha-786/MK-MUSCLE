@@ -22,7 +22,7 @@ export function About() {
               <div className="absolute -inset-4 bg-gradient-to-br from-[#FF2E2E]/20 to-transparent rounded-3xl blur-2xl" />
               <div className="relative rounded-3xl overflow-hidden gradient-border">
                 <img
-                  src="https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  src="/images/pexels-1552252.jpg"
                   alt="MK Muscle training floor"
                   className="w-full h-[520px] object-cover"
                 />

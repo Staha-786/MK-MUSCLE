@@ -8,22 +8,22 @@ const trainers = [
   {
     name: 'Hamza Khan',
     specialization: 'Strength & Powerlifting',
-    image: 'https://images.pexels.com/photos/6456126/pexels-photo-6456126.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-6456126.jpg',
   },
   {
     name: 'Ayesha Siddiqui',
     specialization: 'Fat Loss & Conditioning',
-    image: 'https://images.pexels.com/photos/3757954/pexels-photo-3757954.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-3757954.jpg',
   },
   {
     name: 'Usman Tariq',
     specialization: 'Bodybuilding & Hypertrophy',
-    image: 'https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-703012.jpg',
   },
   {
     name: 'Zara Malik',
     specialization: 'Functional & Mobility',
-    image: 'https://images.pexels.com/photos/4944972/pexels-photo-4944972.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-4944972.jpg',
   },
 ];
 

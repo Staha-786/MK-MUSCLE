@@ -12,7 +12,7 @@ const transformations = [
     lost: 14,
     muscle: 6,
     quote: 'I lost 14kg and finally feel confident again. The trainers at MK Muscle genuinely care.',
-    image: 'https://images.pexels.com/photos/4944972/pexels-photo-4944972.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-4944972.jpg',
   },
   {
     name: 'Sana K.',
@@ -20,7 +20,7 @@ const transformations = [
     lost: 9,
     muscle: 4,
     quote: 'After my second child I thought I\'d never get back in shape. 16 weeks later, I\'m stronger than ever.',
-    image: 'https://images.pexels.com/photos/3757954/pexels-photo-3757954.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-3757954.jpg',
   },
   {
     name: 'Bilal M.',
@@ -28,7 +28,7 @@ const transformations = [
     lost: 18,
     muscle: 10,
     quote: 'The personal training plan was a game changer. I gained real muscle and lost the gut for good.',
-    image: 'https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-1552252.jpg',
   },
 ];
 

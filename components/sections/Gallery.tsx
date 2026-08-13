@@ -9,29 +9,29 @@ import { cn } from '@/lib/utils';
 
 const images = [
   {
-    src: 'https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/images/pexels-1954524.jpg',
     alt: 'Gym floor',
     span: 'row-span-2',
   },
   {
-    src: 'https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/images/pexels-1552103.jpg',
     alt: 'Strength training',
   },
   {
-    src: 'https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/images/pexels-4753986.jpg',
     alt: 'Conditioning',
   },
   {
-    src: 'https://images.pexels.com/photos/4761352/pexels-photo-4761352.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/images/pexels-4761352.jpg',
     alt: 'Cross training',
     span: 'row-span-2',
   },
   {
-    src: 'https://images.pexels.com/photos/4753993/pexels-photo-4753993.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/images/pexels-4753993.jpg',
     alt: 'Cardio area',
   },
   {
-    src: 'https://images.pexels.com/photos/17840/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
+    src: '/images/pexels-17840.jpg',
     alt: 'Bodybuilding',
   },
 ];

@@ -18,7 +18,7 @@ export function Hero() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="/images/pexels-1954524.jpg"
           alt="MK Muscle gym interior"
           className="h-full w-full object-cover"
         />

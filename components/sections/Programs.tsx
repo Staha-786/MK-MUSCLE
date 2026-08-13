@@ -9,37 +9,37 @@ const programs = [
     icon: Dumbbell,
     title: 'Strength Training',
     desc: 'Build raw power and muscle with progressive overload programming and free-weight fundamentals.',
-    image: 'https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-1552103.jpg',
   },
   {
     icon: Flame,
     title: 'Fat Loss',
     desc: 'High-intensity metabolic conditioning designed to torch calories and reveal your leanest physique.',
-    image: 'https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-4753986.jpg',
   },
   {
     icon: Building2,
     title: 'Body Building',
     desc: 'Hypertrophy-focused splits and isolation techniques to sculpt symmetry and serious size.',
-    image: 'https://images.pexels.com/photos/17840/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-17840.jpg',
   },
   {
     icon: Zap,
     title: 'Cross Training',
     desc: 'Functional, multi-modal workouts that build endurance, agility, and total-body athleticism.',
-    image: 'https://images.pexels.com/photos/4761352/pexels-photo-4761352.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-4761352.jpg',
   },
   {
     icon: User,
     title: 'Personal Training',
     desc: '1-on-1 coaching with a dedicated trainer who builds every session around your goals.',
-    image: 'https://images.pexels.com/photos/6456126/pexels-photo-6456126.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-6456126.jpg',
   },
   {
     icon: Heart,
     title: 'Cardio',
     desc: 'Premium treadmills, bikes, and rowers for heart health, stamina, and efficient fat burn.',
-    image: 'https://images.pexels.com/photos/4753993/pexels-photo-4753993.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/pexels-4753993.jpg',
   },
 ];
 
